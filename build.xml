@@ -23,7 +23,7 @@
     
     <target name="compile" depends="thirdparty">
         <mkdir dir="${classes}"/>
-        <javac target="1.6" srcdir="${src}" destdir="${classes}"
+        <javac source="1.6" target="1.6" srcdir="${src}" destdir="${classes}"
                debug="on" encoding="ISO-8859-1"
                deprecation="on"
                includeAntRuntime="no" />
